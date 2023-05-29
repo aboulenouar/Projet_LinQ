@@ -689,7 +689,7 @@ namespace Projet_LinQ
             Console.ForegroundColor = ConsoleColor.White;
             Console.Write("Statistiques\n\n");
 
-            int choice = GetChoice(new int[] {1, 2, 3, 4, 5});
+            int choice = GetChoice(new int[] {1, 2, 3, 4});
             Console.WriteLine(choice);
 
             BasicMenuSelect(choice);
